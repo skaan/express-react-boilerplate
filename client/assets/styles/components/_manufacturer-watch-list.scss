@@ -1,0 +1,92 @@
+/*
+.headbar {
+
+  .left.floated.twelve.wide.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .right.floated.four.wide.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+
+    span {
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-left: 33px;
+      margin-right: 0;
+      padding: 0;
+
+      i {
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+.watch-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+
+  .separator {
+    width: 100%;
+    height: 1px;
+  }
+
+  .watch-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+
+    .watch-detail {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      .watch-image {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        margin-right: 16px;
+      }
+  
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        .watch-name {
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 3px;
+        } 
+    
+        .watch-id {
+          font-size: 14px;
+          margin: 0
+        }
+      }
+    }
+
+    
+  }
+}
+
+.separator {
+  height: 2px;
+
+}
+*/

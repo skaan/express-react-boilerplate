@@ -1,0 +1,84 @@
+.side-menu {
+  // background: linear-gradient(0deg,#0098f0,#00f2c3);
+  background: #27293d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 250px;
+
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    border-radius: 8px;
+    color: white;
+    margin: 8px;
+    padding: 8px;
+
+    span {
+      font-size: 1.25rem;
+    }
+
+    i {
+      font-size: 1.25rem;
+      margin-right: 8px;
+    }
+  }
+
+  .menu-item.active {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .user-menu {
+    margin-bottom: 12px;
+
+    .nav {
+      margin: 8px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      
+      .nav-item {
+        border-radius: 8px;
+        margin: 8px;
+        padding: 8px;
+      }
+    }
+
+    
+
+    .user-menu-item {
+      color: white;
+    }
+  }
+}
+
+/* make the sidebar dot appear in front of an active <a>, rather than active <li> */
+.sidebar {
+  .nav {
+    li > a.active:not([data-toggle="collapse"]) {
+      background: transparent;
+
+      i,p{
+        color: white;
+      }
+
+      &:before{
+        content: " ";
+        position: absolute;
+        height: 6px;
+        width: 6px;
+        top: 22px;
+        left: -4px;
+        background: #ffffff;
+        border-radius: 50%;
+      }
+    }
+  }
+}
